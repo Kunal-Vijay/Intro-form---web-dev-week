@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="records.html">Records</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="registration-form">
+        <h1>Intro Form</h1>
+        <form action="#">
+            <div class="formBox">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+            <div class="formBox">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" />
+            </div>
+            <div class="formBox">
+                <label for="branch">Branch(CSE/IT/ECE)</label>
+                <input type="radio" name="branch" value="CSE" onclick="func();">CSE
+                <input type="radio" name="branch" value="IT" onclick="func();">IT
+                <input type="radio" name="branch" value="ECE" onclick="func();">ECE
+            </div>
+            <div class="formBox">
+                <label for="about">Tell us about yourself...</label>
+                <textarea name="about" id="about" cols="30" rows="10" placeholder="Write here...."></textarea>
+            </div>
+            <div class="formBox">
+                <button id="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
