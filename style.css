@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -9,38 +10,36 @@
 
 body {
   /* background: url("https://img.wallpapersafari.com/desktop/1680/1050/25/22/7jMSZa.jpg") no-repeat; */
-  background: #3a1c71; /* fallback for old browsers */
+  background: #3a1c71; 
   background: -webkit-linear-gradient(
     to right,
     #ffaf7b,
     #d76d77,
     #3a1c71
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
     to right,
     #ffaf7b,
     #d76d77,
     #3a1c71
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ); 
 
   background-size: cover;
-  height: 200vh;
+  height: 100vh;
 }
 
 
 /* Navbar */
 .navbar{
   background-color: black;
-  align-items: center;
 }
 .navbar ul{
-  overflow: auto;
+  overflow:auto;
 }
 .navbar li{
   float:left;
   list-style: none; 
   margin: 13px 20px;
-  
 }
 .navbar li a{
   padding: 3px 3px;
@@ -66,9 +65,9 @@ body {
 
 .registration-form h1 {
   font-size: 50px;
-  text-align: center;
-  /* text-transform: uppercase; */
-  font-family: 'Send Flowers', cursive;
+  text-align:center;
+  font-family: 'Send Flowers'
+  , cursive;
 }
 
 .registration-form label {
@@ -113,6 +112,6 @@ body {
 }
 
 .registration-form button:hover {
-  color: rgb(3, 135, 187);
+  color: rgb(232, 237, 240);
   background-color: black;
 }
